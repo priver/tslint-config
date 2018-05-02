@@ -1,0 +1,58 @@
+{
+  "name": "@priver/tslint-config",
+  "version": "0.0.0",
+  "description": "Shareable config for tslint",
+  "main": "index.js",
+  "files": [
+    "rules",
+    "base.js",
+    "index.js",
+    "react.js"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "yarn lint",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "homepage": "https://github.com/priver/tslint-config",
+  "bugs": "https://github.com/priver/tslint-config/issues",
+  "repository": "priver/tslint-config",
+  "keywords": [
+    "tslint",
+    "tslintconfig",
+    "config",
+    "priver",
+    "typescript",
+    "styleguide"
+  ],
+  "author": "Mikhail Priver <m.priver@gmail.com> (https://github.com/priver)",
+  "license": "MIT",
+  "dependencies": {
+    "tslint-eslint-rules": "^5.1.0",
+    "tslint-react": "^3.5.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-react": "^7.7.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.5",
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.1"
+  },
+  "peerDependencies": {
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.1"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
