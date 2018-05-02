@@ -2,7 +2,7 @@
 
 Shareable config for [tslint]. Uses rules from [`tslint-eslint-rules`] and [`tslint-react`].
 
-[![build status](https://img.shields.io/travis/priver/tslint-config/master.svg?style=flat-square)](https://travis-ci.org/priver/tslint-config)
+[![build status](https://img.shields.io/travis/priver/tslint-config/master.svg?style=flat-square)](https://travis-ci.com/priver/tslint-config)
 [![npm version](https://img.shields.io/npm/v/@priver/tslint-config.svg?style=flat-square)](https://www.npmjs.com/package/@priver/tslint-config)
 [![npm downloads](https://img.shields.io/npm/dm/@priver/tslint-config.svg?style=flat-square)](https://www.npmjs.com/package/@priver/tslint-config)
 [![license](https://img.shields.io/github/license/priver/tslint-config.svg?style=flat-square)](https://github.com/priver/tslint-config/blob/master/LICENSE.txt)
