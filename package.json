@@ -1,6 +1,6 @@
 {
   "name": "@priver/tslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Shareable config for tslint",
   "main": "index.js",
   "files": [
