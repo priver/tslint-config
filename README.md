@@ -1,3 +1,7 @@
+**This repository has been moved into the [linters mono-repo](https://github.com/priver/linters) and has been archived.**
+
+---
+
 # @priver/tslint-config
 
 Shareable config for [tslint]. Uses rules from [`tslint-eslint-rules`] and [`tslint-react`].
